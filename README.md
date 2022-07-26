@@ -29,3 +29,5 @@ Test Report can be displayed with following command:
 ```bash
 allure serve report
 ```
+
+*pytest.log* file is created after test run to view run records.
