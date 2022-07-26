@@ -3,3 +3,5 @@ venv
 /logs
 .idea
 pytest.log
+report/
+tests/__pycache__/
