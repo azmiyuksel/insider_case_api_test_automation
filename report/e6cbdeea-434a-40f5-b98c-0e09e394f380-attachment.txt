@@ -1,4 +1,0 @@
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): petstore.swagger.io:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://petstore.swagger.io:443 "POST /v2/pet/1989 HTTP/1.1" 404 None
-[32mINFO    [0m root:test_pets.py:40 Update method is called
-[32mINFO    [0m root:test_pets.py:41 Response: {"code":404,"type":"unknown","message":"not found"}

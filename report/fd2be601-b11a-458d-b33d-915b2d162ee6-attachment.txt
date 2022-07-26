@@ -1,8 +1,0 @@
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): petstore.swagger.io:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://petstore.swagger.io:443 "DELETE /v2/pet/1989 HTTP/1.1" 200 None
-[32mINFO    [0m root:test_pets.py:61 Delete method is called
-[32mINFO    [0m root:test_pets.py:62 Response: {"code":200,"type":"unknown","message":"1989"}
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): petstore.swagger.io:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://petstore.swagger.io:443 "GET /v2/pet/1989 HTTP/1.1" 404 None
-[32mINFO    [0m root:test_pets.py:65 Get method is called
-[32mINFO    [0m root:test_pets.py:66 Response: {"code":1,"type":"error","message":"Pet not found"}

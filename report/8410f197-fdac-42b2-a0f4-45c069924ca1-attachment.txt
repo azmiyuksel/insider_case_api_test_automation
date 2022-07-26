@@ -1,8 +1,0 @@
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): petstore.swagger.io:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://petstore.swagger.io:443 "POST /v2/pet/1989 HTTP/1.1" 200 None
-[32mINFO    [0m root:test_pets.py:46 Update method is called
-[32mINFO    [0m root:test_pets.py:47 Response: {"code":200,"type":"unknown","message":"1989"}
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): petstore.swagger.io:443
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://petstore.swagger.io:443 "GET /v2/pet/1989 HTTP/1.1" 200 None
-[32mINFO    [0m root:test_pets.py:50 Get method is called
-[32mINFO    [0m root:test_pets.py:51 Response: {"id":1989,"category":{"id":0,"name":"string"},"name":"onix","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
