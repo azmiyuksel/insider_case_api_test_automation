@@ -4,4 +4,4 @@ venv
 .idea
 pytest.log
 report/
-tests/__pycache__/
+*__pycache__*
