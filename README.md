@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Tests can be executed  with following command:
 
 ```bash
-pytest --alluredir=report
+pytest --alluredir=report --clean-alluredir
 ```
 
 Test Report can be displayed with following command:
